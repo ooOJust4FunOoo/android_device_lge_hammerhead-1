@@ -34,6 +34,8 @@ BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 # KERNEL_TOOLCHAIN := $(ANDROID_BUILD_TOP)/prebuilts/gcc/$(HOST_OS)-x86/arm/arm-eabi-4.8/bin
 # KERNEL_TOOLCHAIN_PREFIX := arm-eabi-
 
+TOUCH_BOOST_DEBUG := false
+
 # Shader cache config options
 # Maximum size of the  GLES Shaders that can be cached for reuse.
 # Increase the size if shaders of size greater than 12KB are used.

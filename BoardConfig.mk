@@ -113,8 +113,6 @@ TARGET_RECOVERY_FSTAB = device/lge/hammerhead/fstab.hammerhead
 
 TARGET_RELEASETOOLS_EXTENSIONS := device/lge/hammerhead
 
-BOARD_HAL_STATIC_LIBRARIES := libdumpstate.hammerhead
-
 BOARD_SEPOLICY_DIRS += device/lge/hammerhead/sepolicy
 
 DEVICE_MANIFEST_FILE := device/lge/hammerhead/manifest.xml

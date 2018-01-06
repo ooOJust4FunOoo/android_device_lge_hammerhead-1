@@ -167,8 +167,6 @@ PRODUCT_PACKAGES += \
     libOmxVdecHevc \
     libOmxVenc
 
-# Audio HAL and utilities
-USE_XML_AUDIO_POLICY_CONF := 1
 PRODUCT_PACKAGES += \
     android.hardware.audio@2.0-impl \
     audio.primary.msm8974 \

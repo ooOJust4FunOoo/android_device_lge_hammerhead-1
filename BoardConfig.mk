@@ -126,9 +126,7 @@ TARGET_TOUCHBOOST_FREQUENCY:= 1200
 
 USE_DEVICE_SPECIFIC_QCOM_PROPRIETARY:= true
 USE_DEVICE_SPECIFIC_CAMERA:= true
-TARGET_HAS_LEGACY_CAMERA_HAL1 := true
 
-# Needs text relocations for libmmjpeg
 TARGET_NEEDS_PLATFORM_TEXT_RELOCATIONS:= true
 
 -include vendor/lge/hammerhead/BoardConfigVendor.mk

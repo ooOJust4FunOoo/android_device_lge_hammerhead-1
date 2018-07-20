@@ -36,8 +36,6 @@ BOARD_KERNEL_IMAGE_NAME := zImage-dtb
 
 TOUCH_BOOST_DEBUG := false
 
-TOUCH_BOOST_DEBUG := false
-
 # Shader cache config options
 # Maximum size of the  GLES Shaders that can be cached for reuse.
 # Increase the size if shaders of size greater than 12KB are used.
